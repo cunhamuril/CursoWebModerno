@@ -1,0 +1,21 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "dadasdas",
+  "main": "funcionarios.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dasdasdasdadadasdas",
+    "asdasdasdasdas",
+    "dassdadsd"
+  ],
+  "author": "muril",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

@@ -1,0 +1,67 @@
+header{
+    background-image: url('https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif');    
+}
+
+body{
+    background-image: url('https://forestsnews.cifor.org/wp-content/uploads/2015/05/fire-717504_1280.jpg');    
+}
+
+h1{
+    display: block;
+    margin: 10px 18%;
+}
+
+#inputField{  
+    float: center;
+    width: 46%;
+    margin: 20px auto;
+    position: relative;
+    left: 27%;
+    font-size: 26px;
+    background-color: black;
+    color: darkred;
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    outline: 0px;    
+}
+
+#askButton{
+    position: relative;    
+    left: 27%;
+    font-family: fantasy;
+    font-size: 24px;        
+    background-color: black;
+    border: 0px;    
+    color: #fff;    
+    padding: 10px 20.2%;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;      
+}
+
+#askButton:hover{            
+    border: solid black 1px;
+    background: linear-gradient(black, darkred);          
+}
+
+#askButton:focus{
+    border: solid black 1px;
+    background: linear-gradient(black, rgb(97, 1, 1));
+    user-select: none;
+    outline: 0px;   
+}
+
+
+#answer{
+    text-align: center;
+    margin: 20px 25%;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Lobster Two', cursive;
+}
