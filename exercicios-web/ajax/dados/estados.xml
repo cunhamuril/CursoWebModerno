@@ -25,5 +25,5 @@
     <estado id="24" nome="Santa Catarina" sigla="SC" />
     <estado id="25" nome="São Paulo" sigla="SP" />
     <estado id="26" nome="Sergipe" sigla="SE" />
-    <estado id="27" nome="Tocantins" sigla="TO" />
+    <estado id="27" nome="Tocantins" sigla="TO" /> 
 </estados>
