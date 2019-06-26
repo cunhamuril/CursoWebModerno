@@ -5,9 +5,10 @@ gulp.task('default', () => { // default é a task (tarefa) porta de entrada do g
 })
 
 gulp.task('copiar', ['antes1', 'antes2'], () => {
-    gulp.src('pastaA/**/*.txt') // src define quais são arquivos que irão ser trabalhados, podendo ser um tipo de arquivo ou um array de arquivos
-                               // * define que serão todos os arquivos com extenção .txt
-                               // ** define que serão copiadas, além de todos arquivos, como também as subpastas da pasta em questão
+     return gulp.src('pastaA/**/*.txt') 
+        // src define quais são arquivos que irão ser trabalhados, podendo ser um tipo de arquivo ou um array de arquivos
+        // * define que serão todos os arquivos com extenção .txt
+        // ** define que serão copiadas, além de todos arquivos, como também as subpastas da pasta em questão
 
         // .pipe(transformacao1()) // Pipe and filter -> pipe é uma função que vai encadeando uma chamada a outra
         // .pipe(transformacao2()) // Com objetivo de filtrar plugins e funções gulp 
