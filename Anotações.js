@@ -24,6 +24,7 @@ sonata35
 <diretorio> npm -v -> "Node Package Manager (Gerenciador de Pacotes do Node)  // -v -> versão" 
 <diretorio> npm i lodash -> "i -> istall // lodash é uma biblioteca"
 <diretorio> npm i -g nodemon -> "-g -> global // nodemon é um biblioteca global / toda vez que o server.js for atualizado, ele automaticamente atualiza o servidor"
+<diretorio> node pasta/arquivo.js -> "Executa o arquivo .js no terminal node"
 <diretorio> node src/servidor.js -> "Colocando na porta informada no servidor"
 
 <diretorio> nodemon ./nomedoarquivo.js -> 'Vai executar o nodemon'
@@ -55,10 +56,10 @@ ctrl + c = "forçar parada"
 
 //----------------------------------------------- COMANDOS DO TERMINAL --------------------------------------
 
-// Instalação do gulp versão global (i = install, -g = global)
+"Instalação do gulp versão global (i = install, -g = global)"
 <diretorio> npm i -g gulp-cli 
 
-// Dentro da pasta gulp (exemplo da aula, mas deverá ser a pasta do projeto) deverá ser executado o seguinte comando:
+"Dentro da pasta gulp (exemplo da aula, mas deverá ser a pasta do projeto) deverá ser executado o seguinte comando:"
 <gulp> npm i // para instalar as dependências
 
 //========================================================================================================================================================
@@ -66,7 +67,7 @@ ctrl + c = "forçar parada"
 
 <gulp> gulp --help // Comando para acessar o help de gulp e ver seus comandos
 
-// Dentro da pasta basico (exemplo da aula) deverá ser executado comando:
+"Dentro da pasta basico (exemplo da aula) deverá ser executado comando:"
 <gulp/basico> gulp // será executado a task default do gulpfile.js
 
 
