@@ -1,5 +1,4 @@
-"COMANDOS CMD"
-sonata35
+***** ALGUNS COMANDOS DO PROMPT DE COMANDO DO WINDOWS *****
 "cd 'pasta'" -> Acessa pasta especificada
 "cd ../" -> Abre pasta acima, volta para pasta anterior
 "mkdir 'pasta'" -> Cria pasta especificada
@@ -18,8 +17,17 @@ sonata35
 
 
 
-***** ALGUNS COMANDOS NO TERMINAL: node.js *****
 
+***** ALGUNS ATALHOS DO VSCODE *****
+ctrl + ; = "Comentar e descomentar"
+alt + shift + f = "Formatar"
+ctrl + p = "Pesquisar arquivo"
+
+
+
+
+
+***** ALGUNS COMANDOS NO TERMINAL: node.js *****
 <diretorio> node -v -> "Informa a versão do node"
 <diretorio> npm -v -> "Node Package Manager (Gerenciador de Pacotes do Node)  // -v -> versão" 
 <diretorio> npm i lodash -> "i -> istall // lodash é uma biblioteca"
@@ -125,13 +133,15 @@ ctrl + c = "forçar parada"
 	<dir/spa> npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
 
 3. "BUILD DAS DEPENDÊNCIAS"
-	// 1 - Trabalhando com o arquivo deps.js 
-	
-	// 2 - Codificar a parte deps.css
+	// 1 - Trabalhando com o arquivo deps.js
 
-	// 3 - Codificar a parte deps.fonts
+	// 2 - Executar gulp:
+	<dir/spa> npm start
 
-	// 4 - Executar gulp:
+4. "BUILD DA ALICAÇÃO"
+	// 1 - Trabalhando com o arquivo app.js 
+
+	// 2 - Executar gulp:
 	<dir/spa> npm start
 
 
