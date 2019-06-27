@@ -69,7 +69,7 @@ ctrl + c = "forçar parada"
 
 
 
-//----------------------------------------------------------------- COMANDOS DO TERMINAL ----------------------------------------------------------------
+ ----------------------------------------------------------------- COMANDOS DO TERMINAL ----------------------------------------------------------------
 
 "Instalação do gulp versão global (i = install, -g = global)"
 <diretorio> npm i -g gulp-cli 
@@ -90,7 +90,8 @@ ctrl + c = "forçar parada"
 
 
 //========================================================================================================================================================
-// PROJETO SPA (Single Page Application)
+
+ ----------------------------------------------------------- PROJETO SPA (Single Page Application) -----------------------------------------------------
 
 1. "VISÃO GERAL DO CÓDIGO"
 	Arquivos SCSS
@@ -122,6 +123,17 @@ ctrl + c = "forçar parada"
 
 	<dir/spa> npm start // neste caso ele irá executar o gulp
 	<dir/spa> npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
+
+3. "BUILD DAS DEPENDÊNCIAS"
+	// 1 - Trabalhando com o arquivo deps.js 
+	
+	// 2 - Codificar a parte deps.css
+
+	// 3 - Codificar a parte deps.fonts
+
+	// 4 - Executar gulp:
+	<dir/spa> npm start
+
 
 
 
