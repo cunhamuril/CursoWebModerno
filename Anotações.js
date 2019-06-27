@@ -144,6 +144,15 @@ ctrl + c = "forçar parada"
 	// 2 - Executar gulp:
 	<dir/spa> npm start
 
+4. "ADICIONANDO WEBSERVER"
+	// 1 - Trabalhando com o arquivo servidor.js 
+
+	// 2 - Executar build do gulp sem startar o servidor:
+	<dir/spa> npm run build
+
+	// 3 - Executar o gulp startando o servidor:
+	<dir/spa> npm start
+
 
 
 
