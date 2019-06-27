@@ -48,13 +48,28 @@ ctrl + c = "forçar parada"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =================================================================================================================================================== */
 /*                                                                         GULP                                     								   */
 /* =================================================================================================================================================== */
 
 
 
-//----------------------------------------------- COMANDOS DO TERMINAL --------------------------------------
+//----------------------------------------------------------------- COMANDOS DO TERMINAL ----------------------------------------------------------------
 
 "Instalação do gulp versão global (i = install, -g = global)"
 <diretorio> npm i -g gulp-cli 
@@ -62,13 +77,69 @@ ctrl + c = "forçar parada"
 "Dentro da pasta gulp (exemplo da aula, mas deverá ser a pasta do projeto) deverá ser executado o seguinte comando:"
 <gulp> npm i // para instalar as dependências
 
-//========================================================================================================================================================
 // Gulp está instalado e pronto para usar...
 
 <gulp> gulp --help // Comando para acessar o help de gulp e ver seus comandos
 
 "Dentro da pasta basico (exemplo da aula) deverá ser executado comando:"
 <gulp/basico> gulp // será executado a task default do gulpfile.js
+
+
+
+
+
+
+//========================================================================================================================================================
+// PROJETO SPA (Single Page Application)
+
+1. "VISÃO GERAL DO CÓDIGO"
+	Arquivos SCSS
+	Arquivos HTML
+	Arquivos JS
+	package.json
+
+2. "ESTRUTURANDO A BUILD"
+	// 1 - Instalar dependências
+	<dir/spa> npm i
+
+	// 2 - Criar pasta gulpTasks dentro da pasta spa e criar os seguintes arquivos:
+	app.js // Tasks relacionadas aos arquivos da aplicação
+	deps.js // Trabalhar com as dependências da aplicação
+	servidor.js // Criação e monitoramento do servidor
+
+	// 3 - Definição da estrutura básica do arquivos da pasta gulpTasks	
+
+	// 4 - Implementar a estrutura básica no arquivo da pasta spa:
+	gulpfile.js
+
+	// 5 - Testar
+	<dir/spa> gulp // não vai executar as tasks 'deps' e 'app' porque vai precisar da seguinte flag no comando:
+	<dir/spa> gulp --production // foi definida no código gulpfile.js
+				
+							/* No arquivo package.json já foi definida o script 'start' e 'build' com os comandos:
+								start: "gulp"
+								build: "gulp --production" */
+
+	<dir/spa> npm start // neste caso ele irá executar o gulp
+	<dir/spa> npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
