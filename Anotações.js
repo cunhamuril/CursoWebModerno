@@ -202,6 +202,10 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 <dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
 
+5. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS, CONFIGURAR PASTA DE SAÍDA"
+
+// arquivo webpack.config.js
+
 
 
 
