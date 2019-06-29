@@ -77,7 +77,6 @@ ctrl + c = "forçar parada"
  * =================================================================================================================================================== *
 
 
-
  ----------------------------------------------------------------- COMANDOS DO TERMINAL ----------------------------------------------------------------
 
 "Instalação do gulp versão global (i = install, -g = global)"
@@ -202,12 +201,6 @@ webpack.config.js // Nome padrão do arquivo de configuração
 4. "TESTAR"
 
 <dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
-
-
-
-
-
-
 
 
 
