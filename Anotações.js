@@ -96,11 +96,6 @@ ctrl + c = "forçar parada"
 
 
 
-
-
-
-//========================================================================================================================================================
-
  ----------------------------------------------------------- PROJETO SPA (Single Page Application) -----------------------------------------------------
 
 1. "VISÃO GERAL DO CÓDIGO"
@@ -260,15 +255,23 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 
 
--------------------------------------------------------- 3. CARREGANDO ARQUIVOS DE IMAGENS --------------------------------------------------------------
+-------------------------------------------------------- 4. CARREGANDO ARQUIVOS DE IMAGENS --------------------------------------------------------------
 
-// referenciar imagem no estilo.css
+// referenciar imagem no arquivo estilo.css
 
-// configurar no arquivo package.json colocando as dependências
-// file-loader
+// configurar no arquivo package.json colocando a dependência file-loader
 
 // modificar webpack.config.js 
 
+
+------------------------------------------------------------ 5. ADICIONANDO WEBSERVER -------------------------------------------------------------------
+
+
+// configurar no arquivo package.json colocando a dependência webpack-dev-server
+
+// modificar webpack.config.js 
+
+// altera o script "start" do arquivo package.json de "webpack" para "webpack-dev-server"
 
 
 
