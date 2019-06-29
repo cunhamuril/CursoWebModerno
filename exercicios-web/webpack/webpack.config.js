@@ -8,7 +8,7 @@ module.exports = {
         filename: 'principal.js',
         path: __dirname + '/public' // 2. pasta de saída
     },
-    plugin: [
+    plugins: [
         new MiniCssExtractPlugin({ // 4. referenciando plugin de externalização
             filename: "estilo.css"
         })
@@ -18,7 +18,7 @@ module.exports = {
             test: /\.css$/,
             use: [
                 MiniCssExtractPlugin.loader, // 4. este plugin é conflitante com o style-loader, por isso ele ta comentado
-                //'style-loader', // 3. Adiciona CSS a DOM injetando a tag <style>
+                // 'style-loader', // 3. Adiciona CSS a DOM injetando a tag <style>
                 'css-loader' // 3. interpreta @import, url()...
             ]
         }]
