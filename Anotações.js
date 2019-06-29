@@ -205,6 +205,7 @@ webpack.config.js // Nome padrão do arquivo de configuração
 <dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
 
 
+
 ------------------------------------------------------------------------ 2. CSS e SASS ----------------------------------------------------------------
 
 1. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS..."
@@ -245,6 +246,7 @@ webpack.config.js // Nome padrão do arquivo de configuração
 // modificar o arquivo principal.js
 
 
+
 ---------------------------------------------------------- 3. DESENVOLVIMENTO E PRODUÇÃO ----------------------------------------------------------------
 
 // configurar no arquivo package.json ...
@@ -258,7 +260,14 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 
 
+-------------------------------------------------------- 3. CARREGANDO ARQUIVOS DE IMAGENS --------------------------------------------------------------
 
+// referenciar imagem no estilo.css
+
+// configurar no arquivo package.json colocando as dependências
+// file-loader
+
+// modificar webpack.config.js 
 
 
 
