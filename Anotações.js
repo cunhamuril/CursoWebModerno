@@ -202,7 +202,10 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 <dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
 
-5. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS..."
+
+------------------------------------------------------------------------ 2. CSS e SASS ----------------------------------------------------------------
+
+1. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS..."
 
 // configurar pasta de saída no arquivo webpack.config.js
 
@@ -212,7 +215,7 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 <dir/webpack> npm i
 
-6. "EXTERNALIZANDO ARQUIVO .CSS"
+2. "EXTERNALIZANDO ARQUIVO .CSS"
 
 // configurar no arquivo package.json colocando as dependências para extrair arquivo .css
 // mini-css-extract-plugin
@@ -222,6 +225,29 @@ webpack.config.js // Nome padrão do arquivo de configuração
 // referenciar o plugin no arquivo webpack.config.js
 
 // referencia o style no index.html
+
+3. "CARREGANDO ARQUIVO .SCSS(SASS)"
+
+// configurar no arquivo package.json colocando as dependências para carregar arquivo .scss
+// node-sass & sass-loader
+
+<dir/webpack> npm i
+
+// modificar webpack.config.js 
+
+
+// dentro da pasta assets ...
+// criar pasta scss; arquivos index.scss e botao.scss
+// criar arquivo index.js
+
+// modificar o arquivo principal.js
+
+
+---------------------------------------------------------- 3. DESENVOLVIMENTO E PRODUÇÃO ----------------------------------------------------------------
+
+
+
+
 
 
 
