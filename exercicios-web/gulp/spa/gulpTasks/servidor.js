@@ -12,7 +12,7 @@ gulp.task('monitorarMudancas', () => {
 gulp.task('servidor', ['monitorarMudancas'], () => {
     return gulp.src('build').pipe(webserver({
         livereload: true, // vai atualizar de tempo em tempo a página
-        port: 8080,
+        port: 8081,
         open: true // quando executar o build, ele vai abrir o browser
     }))
 })

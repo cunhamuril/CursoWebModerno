@@ -38,6 +38,7 @@ ctrl + p = "Pesquisar arquivo"
 <diretorio> nodemon ./nomedoarquivo.js -> 'Vai executar o nodemon'
 
 <diretorio> npm init -> "Como vai ser seu arquivo Package.json"
+<diretorio> npm i "// Instala dependencias"
 <diretorio> npm init -y -> "-y significa que vai responder todas as perguntas automaticamente como sim"
 <diretorio> npm i node-schedule "agendamento com temporizador"
 
@@ -71,9 +72,9 @@ ctrl + c = "forçar parada"
 
 
 
-/* =================================================================================================================================================== */
-/*                                                                         GULP                                     								   */
-/* =================================================================================================================================================== */
+ * =================================================================================================================================================== *
+ *                                                                         GULP                                     								   *
+ * =================================================================================================================================================== *
 
 
 
@@ -152,6 +153,63 @@ ctrl + c = "forçar parada"
 
 	// 3 - Executar o gulp startando o servidor:
 	<dir/spa> npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * =================================================================================================================================================== *
+ *                                                                         WEBPACK                                     								   *
+ * =================================================================================================================================================== *
+
+
+ ------------------------------------------------------------ 1. ESTRUTURA BÁSICA DO PROJETO -----------------------------------------------------------
+ 
+ 1. "INSTALAR..."
+ <dir/webpack> npm init -y // Criar arquivo package.json | -y = sim para todos
+
+ // mudar o nome do projeto no package.json de webpack para capitulo-webpack (por exemplo), para evitar conflitos
+ // colocar devdependecies o webpack no arquivo package.json
+
+<dir/webpack> npm i
+
+2. "CODIFICAR"
+
+// Pasta src, arquivo pessoa.js, arquivo principal.js 
+// ...
+
+3. "CRIAR ARQUIVO"
+
+webpack.config.js // Nome padrão do arquivo de configuração
+
+// e codificar...
+
+<dir/webpack> npm start // vai startar o webpack
+
+4. "TESTAR"
+
+<dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
+
+
+
+
+
+
+
+
 
 
 
