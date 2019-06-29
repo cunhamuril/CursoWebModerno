@@ -210,6 +210,19 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 // configurar no arquivo package.json colocando as dependências do css-loader e style-loader
 
+<dir/webpack> npm i
+
+6. "EXTERNALIZANDO ARQUIVO .CSS"
+
+// configurar no arquivo package.json colocando as dependências para extrair arquivo .css
+// mini-css-extract-plugin
+
+<dir/webpack> npm i
+
+// referenciar o plugin no arquivo webpack.config.js
+
+// referencia o style no index.html
+
 
 
 
