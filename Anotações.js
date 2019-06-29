@@ -187,7 +187,7 @@ ctrl + c = "forçar parada"
 
 2. "CODIFICAR"
 
-// Pasta src, arquivo pessoa.js, arquivo principal.js 
+// pasta src, arquivo pessoa.js, arquivo principal.js 
 // ...
 
 3. "CRIAR ARQUIVO"
@@ -202,9 +202,13 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 <dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
 
-5. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS, CONFIGURAR PASTA DE SAÍDA"
+5. "DEPOIS DA AULA DE SISTEMA DE MÓDULOS..."
 
-// arquivo webpack.config.js
+// configurar pasta de saída no arquivo webpack.config.js
+
+// configurar o loader no arquivo webpack.config.js para carregar css
+
+// configurar no arquivo package.json colocando as dependências do css-loader e style-loader
 
 
 
