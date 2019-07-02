@@ -51,6 +51,7 @@ ctrl + p = "Pesquisar arquivo"
 
 <diretorio> npm i --save axios -> "--save vai criar uma área para criar as dependencias no projeto // axios é um exemplo "
 <diretorio> npm i --save express@4.16.2 -E -> "Salvando a dependencia express / @versao / -E -> versão exata"
+<diretorio> npm cache clear --hard -> "Força a limpeza do cache"
 
 //
 
@@ -294,7 +295,12 @@ webpack.config.js // Nome padrão do arquivo de configuração
  *                                                                         JQUERY                                     								   *
  * =================================================================================================================================================== *
 
+ Formas de baixar o jQuery: 
+  -- npm 
+  -- site jQuery
+  -- jQuery CDN
 
+  
 
 
 
