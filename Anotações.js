@@ -3,9 +3,9 @@
 "cd ../" -> Abre pasta acima, volta para pasta anterior
 "mkdir 'pasta'" -> Cria pasta especificada
 "code ." -> code abre o VSCode, o ponto(.) faz com que abra já na pasta atual
-"pwd" -> informa a pasta atual
+"pwd" -> informa a pasta atual //linux
 "dir" -> lista onde eu estou
-"ls" -> mostra os arquivos da pasta
+"ls" -> mostra os arquivos da pasta //linux
 
 "npm install -g http-server" -> instalar um mini servidor
 "http-server ." --> inicia servidor
