@@ -3,6 +3,7 @@
 ==========================================================================================================================================================
 
 "https://rogerdudler.github.io/git-guide/index.pt_BR.html" // guia sem complicação
+"https://gist.github.com/leocomelli/2545add34e4fec21ec16"
 
 --- DIZENDO SEU NOME NO GIT ---
 
@@ -22,10 +23,6 @@ $ git init // iniciar
 
 $ git add . /* vai subir todos os arquivos da pasta atual no primeiro commit: */ ;
 
-$ git commit -a -m "comentários das alterações" // fazendo commit -a(all -> todos)
-$ git push origin master // enviar alterações para repositório remoto
-
-
 ------------------------
 
 $ git log // chega o histórico de commits
@@ -35,4 +32,10 @@ $ git checkout // Checa o git
 $ git show OU $ git show <commit> // Mostra as mudanças do ultimo commit ou do commit especificado
 
 $ git reset --hard <commit> OU git reset HEAD --hard // Volta no commit especificado ou reseta para o commit anterior(head)
+
+------------------------
+
+$ git commit -a -m "comentários das alterações" // fazendo commit -a(all -> todos)
+
+$ git push // enviar alterações para repositório remoto
 
