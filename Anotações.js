@@ -299,7 +299,6 @@ webpack.config.js // Nome padrão do arquivo de configuração
   -- npm 
   -- site jQuery
   -- jQuery CDN
-
   
 
 
