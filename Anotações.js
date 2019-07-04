@@ -29,7 +29,10 @@ ctrl + p = "Pesquisar arquivo"
 
 
 
-***** ALGUNS COMANDOS NO TERMINAL: node.js *****
+* =================================================================================================================================================== *
+*                                                                       NODE JS                                     								  *
+* =================================================================================================================================================== *
+
 <diretorio> node -v -> "Informa a versão do node"
 <diretorio> npm -v -> "Node Package Manager (Gerenciador de Pacotes do Node)  // -v -> versão" 
 <diretorio> npm i lodash -> "i -> istall // lodash é uma biblioteca"
@@ -54,6 +57,12 @@ ctrl + p = "Pesquisar arquivo"
 <diretorio> npm cache clear --hard -> "Força a limpeza do cache"
 
 //
+
+"devDependecies":{
+	"dependecia": "1.0.0" // dependecia e versão
+	"dependecia": "^1.0.0" // pode ir evoluindo tanto na versão minor quanto na versão fix
+	"dependecia": "~1.0.0" // pode ir evoluindo na versão fix
+}
 
 
 ctrl + c = "forçar parada"
@@ -299,6 +308,47 @@ webpack.config.js // Nome padrão do arquivo de configuração
   -- npm 
   -- site jQuery
   -- jQuery CDN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * =================================================================================================================================================== *
+ *                                                                       BOOTSTRAP                                     								   *
+ * =================================================================================================================================================== *
+
+Formas de instalar o Bootstrap:
+-- npm
+-- site Bootstrap
+-- boostrap CDN
+
+O boostrap depende de outras duas dependênciasn, são elas:
+-- jQuery
+-- Popper // tool tips
+
+Duas dependências iniciais: boostrap e http-server
+
+$ npm install --save-dev jquery@3.3.1 -E// instalando dependencia jQuery (-E -> versão exata)
+$ npm install --save-dev popper.js@1.14.3 -E // instalando depencia Popper
+$ npm i // instalar todas dependências
+
+
+
+
+
+
   
 
 
