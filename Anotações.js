@@ -27,6 +27,28 @@ ctrl + p = "Pesquisar arquivo"
 alt + shift + ↓ = "Duplicar linha"
 
 
+Dica HTML no VSCODE : 
+
+(header.cabecalho>h1)+(aside.nav>ul>li) // fazendo assim e apertando enter
+// o html fica assim: 
+	<header class="cabecalho">
+	        <h1></h1>
+	    </header>
+	    <aside class="nav">
+	        <ul>
+	            <li></li>
+	        </ul>
+	</aside>																												/
+
+
+.conteudo[id="legal"] // fazendo assim e apertando enter
+// o html fica assim:
+	<div class="conteudo" id="legal"></div>																					/
+
+
+
+
+
 
 
 
