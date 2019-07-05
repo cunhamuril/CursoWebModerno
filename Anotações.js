@@ -24,6 +24,7 @@
 ctrl + ; = "Comentar e descomentar"
 alt + shift + f = "Formatar"
 ctrl + p = "Pesquisar arquivo"
+alt + shift + ↓ = "Duplicar linha"
 
 
 
@@ -344,7 +345,7 @@ $ npm install --save-dev jquery@3.3.1 -E// instalando dependencia jQuery (-E -> 
 $ npm install --save-dev popper.js@1.14.3 -E // instalando depencia Popper
 $ npm i // instalar todas dependências
 
-
+$ npm start // startando o http-server
 
 
 
