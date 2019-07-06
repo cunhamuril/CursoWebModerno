@@ -372,6 +372,47 @@ $ npm start // startando o http-server
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* =================================================================================================================================================== *
+*                                                      PROJETO GALERIA (Bootstrap/jQuery/Webpack)                                     				  *
+* =================================================================================================================================================== *
+
+* Webpack e package.json já configurado 
+
+	$ npm i
+
+1. "Referenciando os estilos (SCSS)"
+
+	-- Dependências:
+
+	 	- css-loader
+	 	- font-awesome
+	 	- mini-css-extract-plugin
+	 	- node-sass
+	 	- optimize-css-assets-webpack-plugin
+	 	- postcss-loader
+	 	- sass-loader
+	 	- style-loader
+
+	// criar pasta src/scss. arquivos custom.scss e index.scss
+	// importar no arquivo src/index.js que é o entry do webpack
+
+	$ npm run build // testar se está funcionando
+
+
+
   
 
 
