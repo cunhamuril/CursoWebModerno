@@ -436,8 +436,15 @@ $ npm start // startando o http-server
 6. "Executando o Plugin"
 
 	// referenciar o plugin no arquivo src/js/core/includes.js
-	
+	// importar no arquivo cityButtons.js
 
+
+7. "Implementando o Footer"
+
+	// criar arquivo src/pages/template/footer.html
+	// codificar ...
+	// importar no arquivo index.html
+	//
 
 
 
