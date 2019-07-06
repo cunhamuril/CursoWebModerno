@@ -415,8 +415,17 @@ $ npm start // startando o http-server
 2. "Implementando o Header"
   	
   	// criar pastas src/pages/ e src/pages/template. arquivo header.html
-  	// codificado header.html ...
+  	// codificar...
   	// importar no arquivo index.html
+
+	$ npm start
+
+
+3. "Carregando HTML via Ajax (includes)"
+
+	// criar pastas src/js/ e src/js/core (core é o nucleo). Arquivo includes.js
+	// codificar...
+	// importar no arquivo index.js as dependências e o includes.js
 
 
 
