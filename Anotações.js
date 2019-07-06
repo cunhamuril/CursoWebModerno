@@ -427,10 +427,16 @@ $ npm start // startando o http-server
 
 5. "Filtrar Fotos por Cidade (jQuery Plugin)"
 
-	// crirar pasta src/js/plugins. Arquivo cityButtons.js
+	// criar pasta src/js/plugins. Arquivo cityButtons.js
 	// codificar ...
 	// criar tag para os buttons no arquivo galery.html
 	// referenciar no arquivo index.js
+
+
+6. "Executando o Plugin"
+
+	// referenciar o plugin no arquivo src/js/core/includes.js
+	
 
 
 
