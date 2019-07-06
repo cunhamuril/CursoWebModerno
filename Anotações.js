@@ -393,23 +393,12 @@ $ npm start // startando o http-server
 
 	$ npm i
 
-1. "Referenciando os estilos (SCSS)"
-
-	-- Dependências:
-
-	 	- css-loader
-	 	- font-awesome
-	 	- mini-css-extract-plugin
-	 	- node-sass
-	 	- optimize-css-assets-webpack-plugin
-	 	- postcss-loader
-	 	- sass-loader
-	 	- style-loader
+1. "Referenciando os estilos (SCSS)"	
 
 	// criar pasta src/scss/. arquivos custom.scss e index.scss
 	// importar no arquivo src/index.js que é o entry do webpack
 
-	$ npm run build // testar se está funcionando
+	$ npm run build // testar se está funcionando a build
 
 
 2. "Implementando o Header"
@@ -426,6 +415,18 @@ $ npm start // startando o http-server
 	// criar pastas src/js/ e src/js/core (core é o nucleo). Arquivo includes.js
 	// codificar...
 	// importar no arquivo index.js as dependências e o includes.js
+
+
+4. "Implementando a Galeria de Fotos"
+
+	// criar pastas src/pages/galery. arquivos galeryHeader.html e galery.html
+	// codificar ...
+	// importar no arquivo index.html
+	// customizar o header da galeria no arquivo src/scss/custom.scss
+
+
+
+
 
 
 
