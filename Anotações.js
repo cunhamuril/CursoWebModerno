@@ -406,14 +406,17 @@ $ npm start // startando o http-server
 	 	- sass-loader
 	 	- style-loader
 
-	// criar pasta src/scss. arquivos custom.scss e index.scss
+	// criar pasta src/scss/. arquivos custom.scss e index.scss
 	// importar no arquivo src/index.js que é o entry do webpack
 
 	$ npm run build // testar se está funcionando
 
 
-
-  
+2. "Implementando o Header"
+  	
+  	// criar pastas src/pages/ e src/pages/template. arquivo header.html
+  	// codificado header.html ...
+  	// importar no arquivo index.html
 
 
 
