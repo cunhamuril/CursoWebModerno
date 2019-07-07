@@ -1,0 +1,6 @@
+@import "~bootstrap/scss/bootstrap"; // ~ vai referenciar a partir de node_modules
+
+$fa-font-path: "~font-awesome/fonts"; // sobrescrevendo a variavel referenciando o font-awesome
+@import "~font-awesome/scss/font-awesome";
+
+@import "custom"; // referenciar o css final
