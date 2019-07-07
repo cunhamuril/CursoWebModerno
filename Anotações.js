@@ -462,4 +462,32 @@ $ npm start // startando o http-server
 
 
 
+* =================================================================================================================================================== *
+*                                                                           REACT                                     			                 	  *
+* =================================================================================================================================================== *
+
+// iniciando...
+$ npm i -g create-react-app // vai instalar o react de forma global
+
+$ create-react-app nomeDoProjeto // iniciar um novo projeto
+
+$ cd nomeDoProjeto 
+$ npm start
+
+1. "Criando projeto"
+// apagar todos os arquivos da pasta src para ver como funciona...
+// na pasta src, criar arquivo index.js e codar...
+// mudar o nome da página no arquivo public/index.html
+
+
+
+
+
+
+
+
+
+
+
+
 
