@@ -559,7 +559,7 @@ $ npm start
 
 
 
------------------------------------------------------------- PROJETO CADASTRO DE USUÁRIO  -----------------------------------------------------------
+--------------------------------------------------------- PROJETO CADASTRO DE USUÁRIO  -----------------------------------------------------------
 
 1. "Implementando o Backend (JSON Server)"
 
@@ -638,3 +638,9 @@ $ npm start
 7. "Componente Footer"
 	
 	// codificar Footer.jsx e Footer.css
+
+
+
+8. "Componente Navegação"
+
+	// codificar Nav.jsx e Nav.css
