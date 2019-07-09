@@ -494,18 +494,16 @@ $ npm start
 
 1. "Componente Calculator"
 
-// criar pasta main, arquivos Calculator.css e Calculator.jsx
+// criar pasta main dentro de src. criar arquivos Calculator.css e Calculator.jsx
 // codificar...
 
 // importar no arquivo index.js
+
 // limpar o que estava escrito e codificar no arquivo index.css
 
 
+2. "Componente Button #01"
 
-
-
-
-
-
-
-
+// criar pasta components dentro de src. criar arquivos Button.css e Button.jsx
+// codificar ...
+// importar no arquivo Calculator.jsx
