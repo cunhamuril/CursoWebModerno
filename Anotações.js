@@ -632,3 +632,9 @@ $ npm start
 	// referenciar no arquivo src/components/template/Main.jsx
 
 	// codificar o header.jsx e header.css
+
+
+
+7. "Componente Footer"
+	
+	// codificar Footer.jsx e Footer.css
