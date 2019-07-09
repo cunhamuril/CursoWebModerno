@@ -660,3 +660,17 @@ $ npm start
 10. "Componente Cadastro Usuário #01"
 	
 	// criar pasta user dentro de components. arquivo UserCrud.jsx e codificar
+
+
+
+11. "Implementando Rotas (React Router)"
+	
+	// dentro da pasta main, criar arquivo Routes.jsx e codificar
+	
+	// no arquivo App.jsx, importar o router e realizar modificações
+	
+	// ajustar arquivo Nav.jsx e Logo.jsx importando { Link } from 'react-router-dom'
+
+		/* Dica: para a URL não ficar com o hash(#), pode se utilizar o BrowserRouter ao invés de HashRouter
+		 	como está no arquivo App.jsx */		 
+
