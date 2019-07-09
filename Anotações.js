@@ -131,11 +131,15 @@ $ gulp // será executado a task default do gulpfile.js
 
  ----------------------------------------------------------- PROJETO SPA (Single Page Application) -----------------------------------------------------
 
+
+
 1. "VISÃO GERAL DO CÓDIGO"
 	Arquivos SCSS
 	Arquivos HTML
 	Arquivos JS
 	package.json
+
+
 
 2. "ESTRUTURANDO A BUILD"
 	// 1 - Instalar dependências
@@ -162,17 +166,23 @@ $ gulp // será executado a task default do gulpfile.js
 	$ npm start // neste caso ele irá executar o gulp
 	$ npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
 
+
+
 3. "BUILD DAS DEPENDÊNCIAS"
 	// 1 - Trabalhando com o arquivo deps.js
 
 	// 2 - Executar gulp:
 	$ npm start
 
+
+
 4. "BUILD DA ALICAÇÃO"
 	// 1 - Trabalhando com o arquivo app.js 
 
 	// 2 - Executar gulp:
 	$ npm start
+
+
 
 4. "ADICIONANDO WEBSERVER"
 	// 1 - Trabalhando com o arquivo servidor.js 
@@ -215,10 +225,14 @@ $ gulp // será executado a task default do gulpfile.js
 
 $ npm i
 
+
+
 2. "CODIFICAR"
 
 // pasta src, arquivo pessoa.js, arquivo principal.js 
 // ...
+
+
 
 3. "CRIAR ARQUIVO"
 
@@ -227,6 +241,8 @@ webpack.config.js // Nome padrão do arquivo de configuração
 // e codificar...
 
 $ npm start // vai startar o webpack
+
+
 
 4. "TESTAR"
 
@@ -246,6 +262,8 @@ $ npm start && node dist/main.js // starta o webpack e executa o arquivo gerado 
 
 $ npm i
 
+
+
 2. "EXTERNALIZANDO ARQUIVO .CSS"
 
 // configurar no arquivo package.json colocando as dependências para extrair arquivo .css
@@ -256,6 +274,8 @@ $ npm i
 // referenciar o plugin no arquivo webpack.config.js
 
 // referencia o style no index.html
+
+
 
 3. "CARREGANDO ARQUIVO .SCSS(SASS)"
 
@@ -393,12 +413,15 @@ $ npm start // startando o http-server
 
 	$ npm i
 
+
+
 1. "Referenciando os estilos (SCSS)"	
 
 	// criar pasta src/scss/. arquivos custom.scss e index.scss
 	// importar no arquivo src/index.js que é o entry do webpack
 
 	$ npm run build // testar se está funcionando a build
+
 
 
 2. "Implementando o Header"
@@ -410,11 +433,13 @@ $ npm start // startando o http-server
 	$ npm start
 
 
+
 3. "Carregando HTML via Ajax (includes)"
 
 	// criar pastas src/js/ e src/js/core (core é o nucleo). Arquivo includes.js
 	// codificar...
 	// importar no arquivo index.js as dependências e o includes.js
+
 
 
 4. "Implementando a Galeria de Fotos"
@@ -425,6 +450,7 @@ $ npm start // startando o http-server
 	// customizar o header da galeria no arquivo src/scss/custom.scss
 
 
+
 5. "Filtrar Fotos por Cidade (jQuery Plugin)"
 
 	// criar pasta src/js/plugins. Arquivo cityButtons.js
@@ -433,10 +459,12 @@ $ npm start // startando o http-server
 	// referenciar no arquivo index.js
 
 
+
 6. "Executando o Plugin"
 
 	// referenciar o plugin no arquivo src/js/core/includes.js
 	// importar no arquivo cityButtons.js
+
 
 
 7. "Implementando o Footer"
@@ -485,6 +513,8 @@ $ create-react-app calculadora
 
 $ npm start
 
+
+
 1. "Componente Calculator"
 
 // criar pasta main dentro de src. criar arquivos Calculator.css e Calculator.jsx
@@ -495,12 +525,14 @@ $ npm start
 // limpar o que estava escrito e codificar no arquivo index.css
 
 
+
 2. "Componente Button #01"
 
 // criar pasta components dentro de src. criar arquivos Button.css e Button.jsx
 // codificar ...
 
 // importar no arquivo Calculator.jsx
+
 
 
 3. "Componente Display"
@@ -513,10 +545,13 @@ $ npm start
 // alterar a grid com 1fr no Calculator.css
 
 
+
 4. "Componente Button #02"
 
 // Alterações Button.css e Button.jsx
 // Alterações em Calculator.jsx
+
+
 
 5. "Implementando a lógica"
 
@@ -544,6 +579,7 @@ $ npm start
 	"http://localhost:3001/users/2" --> por exemplo: vai para o usuário de ID 2
 
 
+
 2. "Criando Projeto Frontend"
 
 	// dentro da pasta crud
@@ -552,6 +588,7 @@ $ npm start
 	// no arquivo package.json da pasta frontend inserir as dependencias
 	// axios, bootstrap, font-awesome, react-router e react-router-dom
 	$ npm i
+
 
 
 3. "Criando Componentes (Template)"
@@ -569,9 +606,18 @@ $ npm start
 	// apagar arquivos da pasta src: app.js, app.test.js, app.css e logo.svg
 
 
+
 4. "Aplicando estilo (CSS Grid)"
 
 	// codificar src/main/App.css
 	
 	// referenciar fonte montserrat no arquivo public/index.html
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+
+
+5. "Componente Logo"
+	
+	// Criar pasta src/assets e src/assets/imgs e colar o arquivo logo.png
+	// importar logo no arquivo src/components/template/Logo.jsx
+	// dar estilo no arquivo src/components/template/Logo.css
