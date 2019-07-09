@@ -483,6 +483,24 @@ $ npm start
 
 
 
+------------------------------------------------------------ PROJETO CALCULADORA (REACT) -----------------------------------------------------------
+
+$ npm i -g create-react-app
+$ create-react-app calculadora
+
+"https://fonts.google.com/specimen/Roboto+Mono" // Fonte que será utilizada --> thin
+
+$ npm start
+
+1. "Componente Calculator"
+
+// criar pasta main, arquivos Calculator.css e Calculator.jsx
+// codificar...
+
+// importar no arquivo index.js
+// limpar o que estava escrito e codificar no arquivo index.css
+
+
 
 
 
