@@ -544,4 +544,12 @@ $ npm start
 	"http://localhost:3001/users/2" --> por exemplo: vai para o usuário de ID 2
 
 
-2. ""
+2. "Criando Projeto Frontend"
+
+	// dentro da pasta crud
+	$ create-react-app frontend
+
+	// no arquivo package.json da pasta frontend inserir as dependencias
+	// axios, bootstrap, font-awesome, react-router e react-router-dom
+	$ npm i
+
