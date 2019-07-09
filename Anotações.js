@@ -655,3 +655,8 @@ $ npm start
 
 	// referenciar no arquivo App.jsx
 
+
+
+10. "Componente Cadastro Usuário #01"
+	
+	// criar pasta user dentro de components. arquivo UserCrud.jsx e codificar
