@@ -686,3 +686,16 @@ $ npm start
 
 	// criar formulário na função renderForm no arquivo UserCrud.jsx
 	// testar ...
+
+
+
+14. "Componente Cadastro Usuário #04"
+	
+	// codificar o arquivo UserCrud.jsx para aparecer a lista de usuários
+
+		// na função render coloca "console.log(this.state.list)" para testar ver se o console aparece os usuários no array
+		// criar função componentWillMount() que vai fazer aparecer os usuários assim que carregar a página
+
+	// codificar outras funções
+	// renderizar
+	// testar
