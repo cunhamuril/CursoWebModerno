@@ -679,3 +679,10 @@ $ npm start
 12. "Componente Cadastro Usuário #02"
 
 	// importar o axios no arquivo UserCrud.jsx e codificar...
+
+
+
+13. "Componente Cadastro Usuário #03"
+
+	// criar formulário na função renderForm no arquivo UserCrud.jsx
+	// testar ...
