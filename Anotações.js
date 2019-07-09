@@ -506,4 +506,15 @@ $ npm start
 
 // criar pasta components dentro de src. criar arquivos Button.css e Button.jsx
 // codificar ...
+
 // importar no arquivo Calculator.jsx
+
+
+3. "Componente Display"
+
+// criar os arquivos Display.css e Display.jsx dentro da pasta components
+// codificar ...
+
+// importar no arquivo Calculator.jsx
+
+// alterar a grid com 1fr no Calculator.css
