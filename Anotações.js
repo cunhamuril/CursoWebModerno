@@ -536,7 +536,7 @@ $ npm start
 	// criar arquivo db.json dentro da pasta crud/backend
 	// codificar ...
 
-	// no arquivo package.json apaga o script test e insere script start
+	// no arquivo package.json da pasta backend apaga o script test e insere script start
 	$ npm start
 
 	// o backend foi startado na porta 3001
@@ -553,3 +553,17 @@ $ npm start
 	// axios, bootstrap, font-awesome, react-router e react-router-dom
 	$ npm i
 
+
+3. "Criando Componentes (Template)"
+
+	// startar o frontend em outro terminal, pois um terminal já vai estar executando o JSON Server
+	$ npm start
+
+	// criar pastas components e components/template dentro da pasta src
+	// criar arquivos .css e .jsx dentro da pasta template e codificar
+
+	// criar pasta main dentro da pasta src
+	// criar arquivos App.css e App.jsx dentro da pasta main e codificar
+
+	// referenciar o arquivo src/main/app.jsx, no arquivo src/index.js
+	// apagar arquivos da pasta src: app.js, app.test.js, app.css e logo.svg
