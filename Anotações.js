@@ -674,3 +674,8 @@ $ npm start
 		/* Dica: para a URL não ficar com o hash(#), pode se utilizar o BrowserRouter ao invés de HashRouter
 		 	como está no arquivo App.jsx */		 
 
+
+
+12. "Componente Cadastro Usuário #02"
+
+	// importar o axios no arquivo UserCrud.jsx e codificar...
