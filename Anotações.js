@@ -699,3 +699,11 @@ $ npm start
 	// codificar outras funções
 	// renderizar
 	// testar
+
+
+
+15. "Adicionando Responsividade"
+	
+	// alterações no arquivo App.css
+	// alteraçoes no arquivo Nav.css
+	// alteraçoes no arquivo Logo.css
