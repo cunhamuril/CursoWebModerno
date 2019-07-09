@@ -644,3 +644,14 @@ $ npm start
 8. "Componente Navegação"
 
 	// codificar Nav.jsx e Nav.css
+
+
+
+9. "Componente Conteúdo"
+
+	// codificar Main.jsx e Main.css	
+
+	// criar pasta home dentro de components. arquivo Home.jsx
+
+	// referenciar no arquivo App.jsx
+
