@@ -567,3 +567,11 @@ $ npm start
 
 	// referenciar o arquivo src/main/app.jsx, no arquivo src/index.js
 	// apagar arquivos da pasta src: app.js, app.test.js, app.css e logo.svg
+
+
+4. "Aplicando estilo (CSS Grid)"
+
+	// codificar src/main/App.css
+	
+	// referenciar fonte montserrat no arquivo public/index.html
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
