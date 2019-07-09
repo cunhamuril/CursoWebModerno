@@ -56,28 +56,28 @@ Dica HTML no VSCODE :
 *                                                                       NODE JS                                     								  *
 * =================================================================================================================================================== *
 
-<diretorio> node -v -> "Informa a versão do node"
-<diretorio> npm -v -> "Node Package Manager (Gerenciador de Pacotes do Node)  // -v -> versão" 
-<diretorio> npm i lodash -> "i -> istall // lodash é uma biblioteca"
-<diretorio> npm i -g nodemon -> "-g -> global // nodemon é um biblioteca global / toda vez que o server.js for atualizado, ele automaticamente atualiza o servidor"
-<diretorio> node pasta/arquivo.js -> "Executa o arquivo .js no terminal node"
-<diretorio> node src/servidor.js -> "Colocando na porta informada no servidor"
+$ node -v -> "Informa a versão do node"
+$ npm -v -> "Node Package Manager (Gerenciador de Pacotes do Node)  // -v -> versão" 
+$ npm i lodash -> "i -> istall // lodash é uma biblioteca"
+$ npm i -g nodemon -> "-g -> global // nodemon é um biblioteca global / toda vez que o server.js for atualizado, ele automaticamente atualiza o servidor"
+$ node pasta/arquivo.js -> "Executa o arquivo .js no terminal node"
+$ node src/servidor.js -> "Colocando na porta informada no servidor"
 
-<diretorio> nodemon ./nomedoarquivo.js -> 'Vai executar o nodemon'
+$ nodemon ./nomedoarquivo.js -> 'Vai executar o nodemon'
 
-<diretorio> npm init -> "Como vai ser seu arquivo Package.json"
-<diretorio> npm i "// Instala dependencias"
-<diretorio> npm init -y -> "-y significa que vai responder todas as perguntas automaticamente como sim"
-<diretorio> npm i node-schedule "agendamento com temporizador"
+$ npm init -> "Como vai ser seu arquivo Package.json"
+$ npm i "// Instala dependencias"
+$ npm init -y -> "-y significa que vai responder todas as perguntas automaticamente como sim"
+$ npm i node-schedule "agendamento com temporizador"
 
 // SCRIPTS E DEP
 
-<diretorio> npm start -> "Start foi criado como um script no Package.json // Start é um script padrão do node"
-<diretorio> npm run dev -> "Dev foi criado como um script no Package.json // dev NÃO é um script padrão do node"
+$ npm start -> "Start foi criado como um script no Package.json // Start é um script padrão do node"
+$ npm run dev -> "Dev foi criado como um script no Package.json // dev NÃO é um script padrão do node"
 
-<diretorio> npm i --save axios -> "--save vai criar uma área para criar as dependencias no projeto // axios é um exemplo "
-<diretorio> npm i --save express@4.16.2 -E -> "Salvando a dependencia express / @versao / -E -> versão exata"
-<diretorio> npm cache clear --hard -> "Força a limpeza do cache"
+$ npm i --save axios -> "--save vai criar uma área para criar as dependencias no projeto // axios é um exemplo "
+$ npm i --save express@4.16.2 -E -> "Salvando a dependencia express / @versao / -E -> versão exata"
+$ npm cache clear --hard -> "Força a limpeza do cache"
 
 //
 
@@ -115,17 +115,17 @@ ctrl + c = "forçar parada"
  ----------------------------------------------------------------- COMANDOS DO TERMINAL ----------------------------------------------------------------
 
 "Instalação do gulp versão global (i = install, -g = global)"
-<diretorio> npm i -g gulp-cli 
+$ npm i -g gulp-cli 
 
 "Dentro da pasta gulp (exemplo da aula, mas deverá ser a pasta do projeto) deverá ser executado o seguinte comando:"
-<gulp> npm i // para instalar as dependências
+$ npm i // para instalar as dependências
 
 // Gulp está instalado e pronto para usar...
 
-<gulp> gulp --help // Comando para acessar o help de gulp e ver seus comandos
+$ gulp --help // Comando para acessar o help de gulp e ver seus comandos
 
 "Dentro da pasta basico (exemplo da aula) deverá ser executado comando:"
-<gulp/basico> gulp // será executado a task default do gulpfile.js
+$ gulp // será executado a task default do gulpfile.js
 
 
 
@@ -139,7 +139,7 @@ ctrl + c = "forçar parada"
 
 2. "ESTRUTURANDO A BUILD"
 	// 1 - Instalar dependências
-	<dir/spa> npm i
+	$ npm i
 
 	// 2 - Criar pasta gulpTasks dentro da pasta spa e criar os seguintes arquivos:
 	app.js // Tasks relacionadas aos arquivos da aplicação
@@ -152,36 +152,36 @@ ctrl + c = "forçar parada"
 	gulpfile.js
 
 	// 5 - Testar
-	<dir/spa> gulp // não vai executar as tasks 'deps' e 'app' porque vai precisar da seguinte flag no comando:
-	<dir/spa> gulp --production // foi definida no código gulpfile.js
+	$ gulp // não vai executar as tasks 'deps' e 'app' porque vai precisar da seguinte flag no comando:
+	$ gulp --production // foi definida no código gulpfile.js
 				
 							/* No arquivo package.json já foi definida o script 'start' e 'build' com os comandos:
 								start: "gulp"
 								build: "gulp --production" */
 
-	<dir/spa> npm start // neste caso ele irá executar o gulp
-	<dir/spa> npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
+	$ npm start // neste caso ele irá executar o gulp
+	$ npm run build // ele irá executar a construção que foi definida com o comando "gulp --production"
 
 3. "BUILD DAS DEPENDÊNCIAS"
 	// 1 - Trabalhando com o arquivo deps.js
 
 	// 2 - Executar gulp:
-	<dir/spa> npm start
+	$ npm start
 
 4. "BUILD DA ALICAÇÃO"
 	// 1 - Trabalhando com o arquivo app.js 
 
 	// 2 - Executar gulp:
-	<dir/spa> npm start
+	$ npm start
 
 4. "ADICIONANDO WEBSERVER"
 	// 1 - Trabalhando com o arquivo servidor.js 
 
 	// 2 - Executar build do gulp sem startar o servidor:
-	<dir/spa> npm run build
+	$ npm run build
 
 	// 3 - Executar o gulp startando o servidor:
-	<dir/spa> npm start
+	$ npm start
 
 
 
@@ -208,12 +208,12 @@ ctrl + c = "forçar parada"
  ------------------------------------------------------------ 1. ESTRUTURA BÁSICA DO PROJETO -----------------------------------------------------------
  
  1. "INSTALAR..."
- <dir/webpack> npm init -y // Criar arquivo package.json | -y = sim para todos
+ $ npm init -y // Criar arquivo package.json | -y = sim para todos
 
  // mudar o nome do projeto no package.json de webpack para capitulo-webpack (por exemplo), para evitar conflitos
  // colocar devdependecies o webpack no arquivo package.json
 
-<dir/webpack> npm i
+$ npm i
 
 2. "CODIFICAR"
 
@@ -226,11 +226,11 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 // e codificar...
 
-<dir/webpack> npm start // vai startar o webpack
+$ npm start // vai startar o webpack
 
 4. "TESTAR"
 
-<dir/webpack> npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
+$ npm start && node dist/main.js // starta o webpack e executa o arquivo gerado main.js (&& serve para concatenar outro comando)
 
 
 
@@ -244,14 +244,14 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 // configurar no arquivo package.json colocando as dependências do css-loader e style-loader
 
-<dir/webpack> npm i
+$ npm i
 
 2. "EXTERNALIZANDO ARQUIVO .CSS"
 
 // configurar no arquivo package.json colocando as dependências para extrair arquivo .css
 // mini-css-extract-plugin
 
-<dir/webpack> npm i
+$ npm i
 
 // referenciar o plugin no arquivo webpack.config.js
 
@@ -262,7 +262,7 @@ webpack.config.js // Nome padrão do arquivo de configuração
 // configurar no arquivo package.json colocando as dependências para carregar arquivo .scss
 // node-sass & sass-loader
 
-<dir/webpack> npm i
+$ npm i
 
 // modificar webpack.config.js 
 
@@ -283,8 +283,8 @@ webpack.config.js // Nome padrão do arquivo de configuração
 
 // modificar webpack.config.js 
 
-<dir/webpack> npm start // vai startar no modo development
-<dir/webpack> npm run build // vai startar no modo production
+$ npm start // vai startar no modo development
+$ npm run build // vai startar no modo production
 
 
 
@@ -474,16 +474,9 @@ $ create-react-app nomeDoProjeto // iniciar um novo projeto
 $ cd nomeDoProjeto 
 $ npm start
 
-1. "Criando projeto"
-// apagar todos os arquivos da pasta src para ver como funciona...
-// na pasta src, criar arquivo index.js e codar...
-// mudar o nome da página no arquivo public/index.html
 
 
-
-
-
------------------------------------------------------------- PROJETO CALCULADORA (REACT) -----------------------------------------------------------
+------------------------------------------------------------ PROJETO CALCULADORA  -----------------------------------------------------------
 
 $ npm i -g create-react-app
 $ create-react-app calculadora
@@ -524,3 +517,31 @@ $ npm start
 
 // Alterações Button.css e Button.jsx
 // Alterações em Calculator.jsx
+
+5. "Implementando a lógica"
+
+// codificar Calculator.jsx
+
+
+
+------------------------------------------------------------ PROJETO CADASTRO DE USUÁRIO  -----------------------------------------------------------
+
+1. "Implementando o Backend (JSON Server)"
+
+	// criar pasta crud e crud/backend
+	$ cd react/rud/backend
+	$ npm init -y
+	$ npm i --save json-server@0.13.0 -E
+
+	// criar arquivo db.json dentro da pasta crud/backend
+	// codificar ...
+
+	// no arquivo package.json apaga o script test e insere script start
+	$ npm start
+
+	// o backend foi startado na porta 3001
+	"http://localhost:3001/users"
+	"http://localhost:3001/users/2" --> por exemplo: vai para o usuário de ID 2
+
+
+2. ""
