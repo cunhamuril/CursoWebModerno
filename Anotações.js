@@ -564,7 +564,7 @@ $ npm start
 1. "Implementando o Backend (JSON Server)"
 
 	// criar pasta crud e crud/backend
-	$ cd react/rud/backend
+	$ cd react/crud/backend
 	$ npm init -y
 	$ npm i --save json-server@0.13.0 -E
 
@@ -621,3 +621,14 @@ $ npm start
 	// Criar pasta src/assets e src/assets/imgs e colar o arquivo logo.png
 	// importar logo no arquivo src/components/template/Logo.jsx
 	// dar estilo no arquivo src/components/template/Logo.css
+
+
+
+6. "Componente Cabeçalho"
+	
+	// importar bootstrap e font-awesome no arquivo src/main/App.jsx
+	// referenciar icon, title e subtitle
+
+	// referenciar no arquivo src/components/template/Main.jsx
+
+	// codificar o header.jsx e header.css
