@@ -497,7 +497,7 @@ $ npm start // startando o http-server
 // iniciando...
 $ npm i -g create-react-app // vai instalar o react de forma global
 
-$ create-react-app nomeDoProjeto // iniciar um novo projeto
+$ create-react-app nomedoprojeto // iniciar um novo projeto
 
 $ cd nomeDoProjeto 
 $ npm start
