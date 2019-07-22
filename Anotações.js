@@ -79,6 +79,13 @@ $ npm i --save axios -> "--save vai criar uma área para criar as dependencias n
 $ npm i --save express@4.16.2 -E -> "Salvando a dependencia express / @versao / -E -> versão exata"
 $ npm cache clear --hard -> "Força a limpeza do cache"
 
+
+---------------------------------------------------------------------- YARN ------------------------------------------------------------------------
+
+$ yarn init -> "Praticamente parecido com o npm init"
+$ yarn add @babel/cli -> "instalando o cli do babel"
+$ yarn add @babel/preset-env -> "instalando o preset-env do babel"
+
 //
 
 "devDependecies":{
