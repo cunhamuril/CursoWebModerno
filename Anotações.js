@@ -742,3 +742,32 @@ $ npm install -g @vue/cli
 /--------------------------------------------------------- PROJETO CALCULADORA  ----------------------------------------------------------
 
 $ vue create calculator // para iniciar o projeto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* =================================================================================================================================================== *
+*                                                                 BANCO RELACIONAL                                     			                 	  *
+* =================================================================================================================================================== *
+
+// Comandos MySQL
+$ mysql -u root -p // acessar servidor de BD
+
+$ create schema wm // comando DDL create
+$ use wm // começar utilizar o query pelo terminar
+$ quit // sai do query
+
+ctrl + shift + e -> comando para executar a query no VSCODE
