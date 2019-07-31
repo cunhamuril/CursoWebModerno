@@ -771,3 +771,31 @@ $ use wm // começar utilizar o query pelo terminar
 $ quit // sai do query
 
 ctrl + shift + e -> comando para executar a query no VSCODE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* =================================================================================================================================================== *
+*                                                             BANCO NÃO RELACIONAL                                     			                 	  *
+* =================================================================================================================================================== *
+
+
+--------------------- MongoDB -----------------------
+
+$ mongod // executar no terminal que daí vai iniciar o servidor -> localhost:27017
+$ mongo // executa o client do mongo
+$ help // ajuda
+$ show dbs // mostra os dbs

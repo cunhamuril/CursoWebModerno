@@ -1,0 +1,4 @@
+use wm                              -> utilizar DB wm (web moderno)
+db.createCollection('coleção')      -> criar coleção
+show collections                    -> mostra coleções
+db.coleção.drop                     -> excluir coleção

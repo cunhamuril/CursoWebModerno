@@ -1,0 +1,17 @@
+db.estados.insert({nome: "Acre", sigla: "AC", regiao: "Norte"})                             -> insere dados numa coleção
+db.estados.save({nome: "Alagoas", sigla: "AL", regiao: "Nordeste", populacao: 3322000})     -> save tanto insere dados como atualiza
+
+db.estados.find()                   -> dados da coleção estados
+db.estados.find().pretty()          -> dados da coleção estados em formato "bonito"
+
+db.estados.insert({               -> mais de uma linha
+    nome: "Rio de Janeiro",
+    sigla: "RJ",
+    regiao: "Sudeste",
+    cidades: [{
+        _id: ObjectId(),
+        nome: "Niterói",
+        area: 133.9,
+        populacao: 487562
+        }]
+    })

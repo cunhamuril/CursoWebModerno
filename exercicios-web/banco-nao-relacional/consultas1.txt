@@ -1,0 +1,22 @@
+db.estados.find()                                                   -> dados da coleção estados
+db.estados.find().pretty()                                          -> dados da coleção estados em formato "bonito"
+
+db.estados.findOne()                                                -> primeiro registro da coleção, apenas um
+db.estados.findOne({sigla: "RJ"})                                   -> encontrar apenas um registros cuja sigla é RJ
+db.estados.find({sigla: "RJ"})                                      -> encontrar todos os registros cuja sigla é RJ
+
+db.estados.find({sigla: "RJ"}).pretty()                             -> apenas encadeando pretty
+
+db.estados.find({$or: [{sigla: "RJ"}, {sigla: "AC"}]}).pretty()     -> operador OR
+db.estados.find({$and: [{sigla: "RJ"}, {sigla: "AC"}]}).pretty()    -> operador AND
+
+db.estados.find({populacao: {$exists: true}})                       -> todos os estado que tenha o atributo populacao
+
+db.estados.find().skip(1)                                           -> pular 1
+db.estados.find().skip(1).limit(2)                                  -> pular 1 e limitar para 2
+
+db.estados.count()                                                  -> contar quantos registros possui
+
+db.estados.find({sigla: "SP"}, {nome: 1, sigla: 1})                 -> filtrar o nome e sigla no registro SP
+db.estados.find({sigla: "SP"}, {nome: 1, sigla: 1, _id: 0})         -> por padrão vai vir o ID. Para tirar o ID é assim
+db.estados.find({sigla: "SP"}, {"cidades.nome": 1, _id: 0})         -> apenas atributos cidades dentro do registro SP

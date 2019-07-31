@@ -1,0 +1,6 @@
+db.estados.remove({sigla: "AL"})
+db.estados.remove({populacao: {$exists: false}}, 1)     -> remover apenas 1 registro que NÃO tem o atributo população
+
+db.estados.update({sigla: "RJ"}, {$set: {populacao: 16720000}}) -> desafio
+
+db.estados.remove({populacao: {$lt: 20000000}})                 -> remove apenas os registros que tem a populacao < 20000000
