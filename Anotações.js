@@ -75,7 +75,7 @@ $ npm i node-schedule "agendamento com temporizador"
 $ npm start -> "Start foi criado como um script no Package.json // Start é um script padrão do node"
 $ npm run dev -> "Dev foi criado como um script no Package.json // dev NÃO é um script padrão do node"
 
-$ npm i --save axios -> "--save vai criar uma área para criar as dependencias no projeto // axios é um exemplo "
+$ npm i --save axios -> "--save vai salvar a dependencia no package.json // axios é um exemplo "
 $ npm i --save express@4.16.2 -E -> "Salvando a dependencia express / @versao / -E -> versão exata"
 $ npm cache clear --hard -> "Força a limpeza do cache"
 
@@ -338,18 +338,6 @@ $ npm run build // vai startar no modo production
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
  * =================================================================================================================================================== *
  *                                                                         JQUERY                                     								   *
  * =================================================================================================================================================== *
@@ -358,20 +346,6 @@ $ npm run build // vai startar no modo production
   -- npm 
   -- site jQuery
   -- jQuery CDN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -395,19 +369,6 @@ $ npm install --save-dev popper.js@1.14.3 -E // instalando depencia Popper
 $ npm i // instalar todas dependências
 
 $ npm start // startando o http-server
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -799,3 +760,60 @@ $ mongod // executar no terminal que daí vai iniciar o servidor -> localhost:27
 $ mongo // executa o client do mongo
 $ help // ajuda
 $ show dbs // mostra os dbs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* =================================================================================================================================================== *
+*                                                             			EXPRESS                                     			                 	  *
+* =================================================================================================================================================== *
+
+// iniciando
+$ npm init -y
+
+// instalar a dependência do express
+$ npm i --save express // quando declara --save sem o -dev, significa que é para instalar em ambiente de produção também
+
+// para startar o servidor
+$ node index.js
+
+ ------------------------ nodemon ------------------------
+$ npm i --save-dev nodemon // quando declara --save-dev, significa que só vai ser utilizado em ambiente de desenvolvimento.
+$ nodemon index.js // iniciar nodemon (se estiver instalado a versão global do nodemon)
+$ rs // restart
+
+
+// para utilizar em ambiente de produção é recomendável utilizar o pm2 ao invés do nodemon
+$ npm i --save pm2
+// após declarar o script no package.json
+$ npm run production // para iniciar o servidor no ambiente de produção
+$ npm i -g pm2 // instalar o pm2 de forma global
+
+-------------------------------------------------------- ALGUNS COMANDOS PM2 ------------------------------------------------------
+$ pm2 monit // interface de monitoramento
+$ pm2 status // status do servidor
+$ pm2 show 0 // detalhes da aplicação 0
+$ pm2 restart 0 // restarta a aplicação 0
+$ pm2 restart appx-backend // restart utilizando o nome da aplicação ao invés do ID
+$ pm2 stop 0 // pára a aplicação
+$ pm2 kill // vai matar a execução do pm2
+-----------------------------------------------------------------------------------------------------------------------------------
+
+http://localhost:3000/clientes/relatorio?completo=true&ano=2018 -> exemplo de query
+
+
+$ npm i --save body-parser // instalar o body-parser
+
