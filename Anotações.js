@@ -1,3 +1,8 @@
+login Udemy
+user: murilo.sant@hotmail.com
+senha: 3@FQ3GdWv93jHjX
+
+
 ***** ALGUNS COMANDOS DO PROMPT DE COMANDO DO WINDOWS *****
 "cd 'pasta'" -> Acessa pasta especificada
 "cd ../" -> Abre pasta acima, volta para pasta anterior
