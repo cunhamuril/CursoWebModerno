@@ -1,4 +1,8 @@
 <h1>{{ msg }}</h1>
 <h2>{{ legenda }}</h2>
 
+<!-- []: bind de valor -->
 <input type="text" [value]="legenda" />
+
+<!-- (): bind de função -->
+<button (click)="resetLegenda()">Reset Legenda</button>

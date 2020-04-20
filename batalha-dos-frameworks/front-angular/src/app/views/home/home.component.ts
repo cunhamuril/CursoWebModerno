@@ -12,4 +12,9 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  // Função do componente
+  resetLegenda(): void {
+    console.log("Evento de click no angular!");
+  }
 }
