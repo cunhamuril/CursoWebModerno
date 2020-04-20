@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Home.css";
 
-const Home = () => (
+const Home = (props) => (
   <div className="home">
-    <h1>Componente Home</h1>
+    <h1>{props.msg}</h1>
   </div>
 );
 
