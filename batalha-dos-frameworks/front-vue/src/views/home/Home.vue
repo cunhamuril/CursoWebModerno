@@ -20,7 +20,7 @@ export default {
   data: () => ({ legenda: "Estou no Vue" }),
   methods: {
     resetLegenda() {
-      console.log("Evento de click no Vue");
+      this.legenda = "Estou no Vue";
     }
   }
 };

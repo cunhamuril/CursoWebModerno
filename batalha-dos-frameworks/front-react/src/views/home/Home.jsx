@@ -6,7 +6,7 @@ const Home = (props) => {
   const [legenda, setLegenda] = useState("Estou no React");
 
   function resetLegenda() {
-    console.log("Evento de click no React!");
+    setLegenda("Estou no React");
   }
 
   return (
