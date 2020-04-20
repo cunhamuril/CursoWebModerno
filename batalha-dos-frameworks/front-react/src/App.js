@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Home msg="Componente Home" />
-      <Home msg="Do React" />
     </div>
   );
 }

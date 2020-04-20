@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
   @Input() msg: string;
+  legenda: string = "Estou no Angular";
 
   constructor() {}
 

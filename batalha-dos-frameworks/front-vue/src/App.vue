@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Home msg="Componente Home" />
-    <Home msg="Do Vue" />
   </div>
 </template>
 
