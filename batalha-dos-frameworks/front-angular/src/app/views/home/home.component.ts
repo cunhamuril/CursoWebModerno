@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit {
 
   // Função do componente
   resetLegenda(): void {
-    console.log("Evento de click no angular!");
+    this.legenda = "Estou no Angular (Alterado!!!)";
   }
 }

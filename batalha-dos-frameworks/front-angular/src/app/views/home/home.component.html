@@ -1,8 +1,13 @@
 <h1>{{ msg }}</h1>
 <h2>{{ legenda }}</h2>
 
-<!-- []: bind de valor -->
-<input type="text" [value]="legenda" />
+<!-- []: bind de valor -> Refenrenciar o dado -->
+<!-- <input type="text" [value]="legenda" /> -->
 
-<!-- (): bind de função -->
+<!-- [()]: duas direções de bind de dados (Two way data binding) 
+  -> Sempre que legenda mudar, vai mudar tbm o valor
+-->
+<input type="text" [(ngModel)]="legenda" />
+
+<!-- (): bind de função -> função ao clicar -->
 <button (click)="resetLegenda()">Reset Legenda</button>

@@ -3,7 +3,10 @@
     <h1>{{msg}}</h1>
     <h2>{{legenda}}</h2>
 
-    <input type="text" v-bind:value="legenda" />
+    <!-- v-model: Two way data binding-->
+    <input type="text" v-model="legenda" />
+
+    <!-- <input type="text" v-bind:value="legenda" /> -->
     <!-- OU -->
     <!-- <input type="text" :value="legenda" /> -->
 
